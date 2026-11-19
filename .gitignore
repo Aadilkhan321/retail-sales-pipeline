@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.env
+.DS_Store
+# big files: re-create them by running the pipeline
+data/online_retail_II.csv
+data/online_retail_II.xlsx
+data/raw/*.csv
+data/run_stats.json
+data/*.csv
+*.db
